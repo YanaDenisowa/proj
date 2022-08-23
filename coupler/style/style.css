@@ -184,9 +184,60 @@
     justify-content: space-between;
 }
 
-.second__content .left-col {
-    padding-top: 94px;
+.right-col.rounded {
+    position: relative;
+    width: 50%;
+    background: url("../img/Ellipse 205.svg") 50% 50% no-repeat;
+    border-radius: 50%;
+    height: 600px;
 }
+.item {
+    position: absolute;
+    cursor: pointer;
+}
+.item:first-child {
+    position:absolute;
+    top: 50%;
+    left: 50% ;
+    background-position:  50% 50%;
+    transform: translate(-50%,-50%);
+}
+.item:nth-child(2){
+  top: 0%;
+    left: 20% ;
+}
+.item:nth-child(3){
+    top: 30%;
+    left: -5%;
+}
+.item:nth-child(4){
+    top: 0%;
+    left: 60% ;
+}
+.item:nth-child(5) {
+    top: 35%;
+    left: 80%;
+}
+.item:nth-child(5) {
+    top: 65%;
+    left: 5%;
+}
+.item:nth-child(6) {
+    top: 80%;
+    left: 40%;
+}
+.item:nth-child(7) {
+    top: 67%;
+    left: 74%;
+}
+ .item:nth-child(8) {
+     top: 33%;
+     left: 80%;
+ }
+.second__content .left-col {
+    width: 50%;
+    padding-top: 94px;
+
 .third__content{
     display: flex;
     align-items: flex-start;
